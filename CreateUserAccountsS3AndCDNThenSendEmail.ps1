@@ -145,5 +145,5 @@ Sent to $EmailAddress
 
 $BodyText | Out-File "meetup\$UserName.txt"
 
-Send-MailMessage -From "Tech at Agoda <techatagoda@gmail.com>" -To "joel.dickson@agoda.com" -Subject "Tech@Agoda Let's Do CI and CD Event - DRY RUN" -Body $BodyText -Priority High -SmtpServer "your_smtp_server" 
+Send-MailMessage -From "Tech at Agoda <techatagoda@xxxx.ccc>" -To $EmailAddress -Subject "Tech@Agoda Let's Do CI and CD Event - DRY RUN" -Body $BodyText -Priority High -SmtpServer "your_smtp_server" 
 }
